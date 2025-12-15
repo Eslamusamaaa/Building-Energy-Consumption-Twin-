@@ -233,8 +233,4 @@ npm install
 npm start
 ```
 
----
 
-## License
-
-This project is intended for educational and research purposes.
