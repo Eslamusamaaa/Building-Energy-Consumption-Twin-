@@ -205,3 +205,150 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+
+################################
+# Python
+################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.eggs/
+pip-wheel-metadata/
+
+################################
+# Virtual Environments
+################################
+venv/
+.env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+################################
+# Jupyter / Data Science
+################################
+.ipynb_checkpoints/
+*.ipynb
+*.joblib
+*.pkl
+*.h5
+*.keras
+
+################################
+# Machine Learning Models
+################################
+model_*.pkl
+scaler_*.pkl
+meta_model_*.keras
+*.ckpt
+*.pb
+saved_model/
+checkpoints/
+
+################################
+# Datasets (VERY IMPORTANT)
+################################
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.xls
+data/
+datasets/
+DataSet/
+Dataset/
+
+################################
+# Logs
+################################
+*.log
+logs/
+log/
+
+################################
+# Flask
+################################
+instance/
+*.sqlite3
+*.db
+
+################################
+# OS / Editor
+################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+################################
+# VS Code / IDEs
+################################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+################################
+# Node / Frontend (if React used)
+################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build/
+dist/
+
+################################
+# Secrets
+################################
+*.env
+*.key
+*.pem
+config_secret.py
+
+################################
+# Temporary files
+################################
+tmp/
+temp/
+.cache/
+
+################################
+# Windows specific
+################################
+$RECYCLE.BIN/
+
